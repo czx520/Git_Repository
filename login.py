@@ -20,9 +20,9 @@ class Byhy_Login():
         return r
 
 
-# if __name__ == '__main__':
-#     s = requests.session()
-#     l = Byhy_Login(s)
-#     r = l.login('byhy', '88888888')
-#     print(r.text)
-#     print(type(r.json()['ret']))
+if __name__ == '__main__':
+    s = requests.session()
+    l = Byhy_Login(s)
+    r = l.login('byhy', '88888888')
+    print(r.text)
+    print(type(r.json()['ret']))
